@@ -1,0 +1,396 @@
+// font-family: "Josefin Sans", sans-serif;
+
+header {
+  width: 1230px;
+  margin: 0 auto;
+
+  nav {
+    position: fixed;
+    z-index: 150;
+    display: flex;
+    gap: 600px;
+    margin-top: 34px;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 12px;
+    width: 1230px;
+
+    .TBC-logo {
+      img {
+        width: 100px;
+        height: 65px;
+      }
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      a {
+        li {
+          color: white;
+          font-size: 17px;
+          font-family: $georgian-font;
+          transition: 1s;
+        }
+
+        li:hover {
+          color: rgb(255, 196, 0);
+          transition: 1s;
+        }
+      }
+    }
+  }
+}
+
+.my-s-1 {
+  #carouselExampleAutoplaying {
+    .carousel-inner {
+      .carousel-item {
+        .d-md-block {
+          h5 {
+            font-size: 32px;
+            font-weight: 600;
+            font-family: "ALK Sanet", sans-serif;
+            margin: 0 auto;
+            margin-bottom: 250px;
+            width: 350px;
+            transition: 1.7s;
+          }
+
+          h5:hover {
+            background-color: rgba(165, 165, 165, 0.767);
+            transition: 1.7s;
+            border-radius: 7px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.my-container {
+  width: 1244px;
+  margin: 0 auto;
+  // border: 2px red solid;
+  h1 {
+    margin-top: 108px;
+    font-family: $georgian-font;
+    font-size: 24px;
+  }
+
+  .my-cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 32px;
+
+    h6 {
+      background-image: url("../images/Brad_Pitt.jpg");
+      @include card-image;
+    }
+
+    h3 {
+      background-image: url("../images/Leonardo_DiCaprio.jpg");
+      @include card-image;
+    }
+
+    h4 {
+      background-image: url("../images/Arnold_Schwarzenegger.jpg");
+      @include card-image;
+    }
+    h5 {
+      background-image: url("../images/will_smith.jpg");
+      @include card-image;
+    }
+    .my-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 295px;
+      height: 495px;
+      border: 1px #a3a3a3 solid;
+      border-radius: 15px;
+      transition: 1s;
+
+      .my-card-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 19px;
+        width: 265px;
+        margin-top: 16px;
+
+        button {
+          @include button-style;
+        }
+
+        button:hover {
+          @include button-hover;
+        }
+
+        .my-card-text {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+
+          h2 {
+            font-size: 18px;
+            font-weight: 600;
+            font-family: $georgian-font;
+          }
+
+          p {
+            font-family: $georgian-font;
+            width: 215px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .my-card:hover {
+      @include shadow-hover;
+    }
+  }
+
+  .film-shots {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 108px;
+
+    .shot-1 {
+      background-image: url("../images/catch-me-if-you-can.webp");
+      @include film-shot;
+    }
+
+    .shot-1:hover {
+      @include shot-hover;
+      transform: scale(1.02, 1.02);
+    }
+
+    .shot-2 {
+      background-image: url("../images/Home-alone.avif");
+      @include film-shot;
+      justify-content: flex-end;
+      gap: 160px;
+
+      span {
+        margin-right: 16px;
+      }
+    }
+
+    .shot-2:hover {
+      @include shot-hover;
+      transform: scale(1.02, 1.02);
+    }
+  }
+
+  .films {
+    margin-top: 105px;
+    font-family: $georgian-font;
+    font-size: 24px;
+  }
+
+  .film-cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 32px;
+
+    h2 {
+      background-image: url("../images/Ford_v_Ferrari_card.jpg");
+      @include film-card-image;
+    }
+
+    h3 {
+      background-image: url("../images/Men_in_Black_card.jpg");
+      @include film-card-image;
+    }
+
+    h4 {
+      background-image: url("../images/pink_panther-card.jpg");
+      @include film-card-image;
+    }
+
+    .film-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 20px 20px 20px 20px;
+      border: 1px solid #a3a3a3;
+      width: 400px;
+      height: 492px;
+      transition: 1s;
+
+      .film-card-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        width: 360px;
+
+        a {
+          button {
+            @include button-style;
+          }
+          button:hover {
+            @include button-hover;
+          }
+        }
+
+        .film-card-text {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 16px;
+
+          .title-film-card {
+            font-size: 18px;
+            font-weight: 600;
+            font-family: "Inter", sans-serif;
+            margin-top: 16px;
+          }
+
+          p {
+            width: 320px;
+            font-size: 16px;
+            font-family: $georgian-font;
+          }
+        }
+      }
+    }
+
+    .film-card:hover {
+      @include shadow-hover;
+    }
+  }
+
+  .film-shots-2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 108px;
+
+    .shot-3 {
+      background-image: url("../images/bad-boys_card.jpg");
+      @include film-shot-2;
+    }
+
+    .shot-3:hover {
+      @include shot-hover;
+    }
+
+    .shot-4 {
+      background-image: url("../images/indiana-jones.avif");
+      @include film-shot-2;
+
+      p {
+        width: 170px;
+        background-color: #006d9b;
+      }
+    }
+
+    .shot-4:hover {
+      @include shot-hover;
+    }
+
+    .shot-5 {
+      background-image: url("../images/james-bond.png");
+      @include film-shot-2;
+
+      p {
+        width: 155px;
+      }
+    }
+
+    .shot-5:hover {
+      @include shot-hover;
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  height: 296px;
+  background-color: #309d6f;
+  margin-top: 108px;
+
+  .footer-container {
+    width: 1125px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 162px;
+    margin: 0 auto;
+
+    a {
+      img {
+        width: 170px;
+        height: 100px;
+        margin-top: 56px;
+      }
+    }
+
+    .footer-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 124px;
+      margin-top: 56px;
+
+      .footer-films {
+        @include footer-items;
+      }
+
+      .actors {
+        @include footer-items;
+      }
+
+      .help {
+        @include footer-items;
+      }
+
+      .social {
+        @include footer-items;
+        a {
+          h2 {
+            @include footer-icons;
+            span {
+              .fa-instagram {
+                font-size: 24px;
+              }
+            }
+          }
+
+          h3 {
+            @include footer-icons;
+            span {
+              .fa-facebook-f {
+                font-size: 24px;
+              }
+            }
+          }
+
+          h4 {
+            @include footer-icons;
+            span {
+              .fa-twitter {
+                font-size: 24px;
+              }
+            }
+          }
+
+          h5 {
+            @include footer-icons;
+            span {
+              .fa-linkedin-in {
+                font-size: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
