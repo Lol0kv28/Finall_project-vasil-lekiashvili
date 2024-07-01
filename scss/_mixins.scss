@@ -188,3 +188,16 @@
   padding: 32px 32px 32px 32px;
   transition: 1s;
 }
+
+@mixin card-pages-images{
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 25px 25px 25px 25px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  width: 505px;
+  height: 548px;
+  transition: 1s;
+}
