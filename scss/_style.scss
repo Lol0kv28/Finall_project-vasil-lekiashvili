@@ -27,7 +27,7 @@ header {
       align-items: center;
       gap: 30px;
 
-      .burger-bar{
+      .burger-bar {
         display: none;
       }
 
@@ -1440,6 +1440,9 @@ footer {
           color: black;
         }
       }
+      .burger-bar {
+        display: none;
+      }
     }
   }
 }
@@ -1902,7 +1905,18 @@ footer {
   }
 }
 
+// -------------------------------RESPONSIVE-------------------------------
+
 @media (max-width: 1245px) {
+  .cards-pages-header {
+    width: 888px;
+    .cards-pages-navbar {
+      gap: 0px !important;
+      position: static;
+      width: 675px !important;
+    }
+  }
+
   header {
     position: sticky;
     z-index: 150;
@@ -1911,10 +1925,10 @@ footer {
       width: 785px !important;
       margin-left: 100px;
 
-      ul{
-        li{
-          input{
-            display:none;
+      ul {
+        li {
+          input {
+            display: none;
           }
         }
       }
@@ -1956,14 +1970,14 @@ footer {
     }
   }
 
-  .fiml_actors_page-container{
+  .fiml_actors_page-container {
     width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    .categories{
+    .categories {
       justify-content: center;
     }
 
@@ -1988,7 +2002,7 @@ footer {
     }
   }
 
-  .news_page-container{
+  .news_page-container {
     width: 1000px;
     display: flex;
     justify-content: center;
@@ -1997,20 +2011,19 @@ footer {
 
     .film-shot-2-title {
       height: 700px;
-      width:935px;
-      .film-shots-2-new-page{
-        width:810px;
+      width: 935px;
+      .film-shots-2-new-page {
+        width: 810px;
         justify-content: center;
       }
     }
 
-    .film-shot-carousel{
-      justify-content:center ;
-      width:610px;
+    .film-shot-carousel {
+      justify-content: center;
+      width: 610px;
     }
 
-
-    .categories{
+    .categories {
       justify-content: center;
     }
 
@@ -2030,6 +2043,18 @@ footer {
     }
 
     .film-shots-2 {
+      width: 1000px;
+      justify-content: center;
+    }
+  }
+
+  .card-pages-container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .my-cards {
       width: 1000px;
       justify-content: center;
     }
@@ -2045,7 +2070,7 @@ footer {
     }
   }
 
-  .contact-container{
+  .contact-container {
     width: 1000px;
     display: flex;
     justify-content: center;
@@ -2053,23 +2078,62 @@ footer {
     flex-direction: column;
 
     .film-shot-2-title {
-    height: 700px;
-    width:935px;
-    .film-shots-2-new-page{
-      width:810px;
-      justify-content: center;
+      height: 700px;
+      width: 935px;
+      .film-shots-2-new-page {
+        width: 810px;
+        justify-content: center;
       }
     }
   }
 
-  .user-info{
+  .user-info {
     width: 620px;
     flex-wrap: wrap;
     gap: 20px;
   }
 }
 
+@media (max-width: 1100px) {
+  .card-pages-container {
+    width: 900px;
+    .go-back {
+      a {
+        margin-right: 465px;
+      }
+    }
+
+    .film-actor_info {
+      gap: 300px;
+      .top-info {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 510px;
+      }
+      .bottom-info {
+        flex-wrap: wrap;
+        width: 370px;
+        justify-content: center;
+        gap: 175px;
+
+        .desctiption {
+          p {
+            font-size: 20px;
+            width: 370px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1000px) {
+  .cards-pages-header {
+    .cards-pages-navbar {
+      margin-left: 125px;
+    }
+  }
+
   header {
     position: sticky;
     z-index: 150;
@@ -2147,9 +2211,9 @@ footer {
 
     .film-shot-2-title {
       height: 700px;
-      width:653px;
-      .film-shots-2-new-page{
-        width:535px;
+      width: 653px;
+      .film-shots-2-new-page {
+        width: 535px;
         justify-content: center;
       }
     }
@@ -2170,6 +2234,17 @@ footer {
     }
   }
 
+  .card-pages-container {
+    .film-cards {
+      width: 900px;
+      justify-content: center;
+    }
+    .my-cards {
+      width: 900px;
+      justify-content: center;
+    }
+  }
+
   footer {
     width: 100%;
     height: 490px;
@@ -2180,16 +2255,17 @@ footer {
     }
   }
 
-  .contact-container{
+  .contact-container {
     width: 900px;
     .film-shot-2-title {
-    height: 700px;
-    width:653px;
-    .film-shots-2-new-page{
-      width:535px;
-      justify-content: center;
+      height: 700px;
+      width: 653px;
+      .film-shots-2-new-page {
+        width: 535px;
+        justify-content: center;
+      }
     }
-  }}
+  }
 }
 
 @media (max-width: 900px) {
@@ -2208,12 +2284,12 @@ footer {
       .carousel-inner {
         height: 500px;
       }
-      button{
-        .carousel-control-prev{
-          display:none;
+      button {
+        .carousel-control-prev {
+          display: none;
         }
-        .carousel-control-next{
-          display:none;
+        .carousel-control-next {
+          display: none;
         }
       }
     }
@@ -2273,7 +2349,19 @@ footer {
     }
   }
 
-  .news_page-container{
+  .card-pages-container {
+    width: 700px;
+    .film-cards {
+      width: 500px;
+      justify-content: center;
+    }
+    .my-cards {
+      width: 700px;
+      justify-content: center;
+    }
+  }
+
+  .news_page-container {
     width: 700px;
     display: flex;
     justify-content: center;
@@ -2300,10 +2388,9 @@ footer {
     }
   }
 
-  .contact-container{
+  .contact-container {
     width: 700px;
   }
-
 
   footer {
     width: 100%;
@@ -2317,7 +2404,6 @@ footer {
 }
 
 @media (max-width: 900px) {
-
   header {
     position: sticky;
     z-index: 150;
@@ -2336,9 +2422,16 @@ footer {
       }
     }
   }
+
+  .cards-pages-header {
+    width: 700px;
+    .cards-pages-navbar {
+      margin-left: 25px;
+    }
+  }
 }
 
-@media(max-width:800px){
+@media (max-width: 800px) {
   header {
     position: sticky;
     z-index: 150;
@@ -2351,12 +2444,10 @@ footer {
 }
 
 @media (max-width: 700px) {
-
   header {
     position: sticky;
     z-index: 150;
     nav {
-     
       margin-left: -185px;
     }
   }
@@ -2386,7 +2477,142 @@ footer {
       width: 400px;
       justify-content: center;
     }
-  
+  }
+
+  .card-pages-container {
+    width: 300px;
+
+    .go-back {
+      a {
+        margin-right: 0px;
+      }
+    }
+
+    .film-actor_info {
+      gap: 300px;
+      width: 300px;
+
+      .bottom-info {
+        width: 300px;
+        .desctiption {
+          span {
+            width: 300px;
+          }
+          p {
+            width: 300px;
+            font-size: 19px;
+          }
+        }
+        .additional-info {
+          width: 300px;
+
+          p {
+            width: 300px;
+          }
+        }
+      }
+
+      .top-info {
+        width: 300px;
+        .top-text-info {
+          p {
+            width: 300px;
+          }
+        }
+
+        .brad-pitt-image {
+          width: 300px;
+        }
+
+        .dicaprio-image {
+          width: 300px;
+        }
+
+        .shvarcnegger-image {
+          width: 300px;
+        }
+
+        .will-smith-image {
+          width: 300px;
+        }
+
+        .daniel-craig-image {
+          width: 300px;
+        }
+
+        .martin-lawrence-image {
+          width: 300px;
+        }
+
+        .tom-hanks-image {
+          width: 300px;
+        }
+
+        .hanry-cavill-image {
+          width: 300px;
+        }
+
+        .ford_vs_ferrari-image {
+          width: 300px;
+        }
+
+        .man-in-black-image {
+          width: 300px;
+        }
+
+        .the-pink-panther-image {
+          width: 300px;
+        }
+
+        .indiana-jones-image {
+          width: 300px;
+        }
+
+        .bad-boys-image {
+          width: 300px;
+        }
+
+        .CMIYC-image {
+          width: 300px;
+        }
+
+        .Deadpool-Wolverine-image {
+          width: 300px;
+        }
+
+        .The-Garfield-Movie-image {
+          width: 300px;
+        }
+
+        .Despicable-Me-4-image {
+          width: 300px;
+        }
+
+        .Inside-Out-2-image {
+          width: 300px;
+        }
+
+        .KPA-image {
+          width: 300px;
+        }
+      }
+    }
+
+    .film-cards {
+      width: 400px;
+      justify-content: center;
+    }
+    .my-cards {
+      width: 300px;
+      justify-content: center;
+    }
+  }
+
+  .cards-pages-header {
+    width: 295px;
+    .cards-pages-navbar {
+      margin-left: -189px;
+    }
   }
 
   .fiml_actors_page-container {
@@ -2400,29 +2626,29 @@ footer {
       justify-content: center;
     }
 
-    .categories{ 
-      width:400px;
-      .categori-1{
+    .categories {
+      width: 400px;
+      .categori-1 {
         width: 160px;
         height: 170px;
       }
-      .categori-2{
+      .categori-2 {
         width: 160px;
         height: 170px;
       }
-      .categori-3{
+      .categori-3 {
         width: 160px;
         height: 170px;
       }
-      .categori-4{
+      .categori-4 {
         width: 160px;
         height: 170px;
       }
-      .categori-5{
+      .categori-5 {
         width: 160px;
         height: 170px;
       }
-      .categori-6{
+      .categori-6 {
         width: 160px;
         height: 170px;
       }
@@ -2442,7 +2668,6 @@ footer {
       width: 400px;
       justify-content: center;
     }
-  
   }
 
   .news_page-container {
@@ -2456,41 +2681,40 @@ footer {
       justify-content: center;
     }
 
-
     .film-shot-2-title {
       height: 1290px;
       width: 290px;
       justify-content: center;
       align-items: center;
-      .film-shots-2-new-page{
-        width:260px;
+      .film-shots-2-new-page {
+        width: 260px;
         justify-content: center;
       }
     }
 
-    .categories{ 
-      width:400px;
-      .categori-1{
+    .categories {
+      width: 400px;
+      .categori-1 {
         width: 160px;
         height: 170px;
       }
-      .categori-2{
+      .categori-2 {
         width: 160px;
         height: 170px;
       }
-      .categori-3{
+      .categori-3 {
         width: 160px;
         height: 170px;
       }
-      .categori-4{
+      .categori-4 {
         width: 160px;
         height: 170px;
       }
-      .categori-5{
+      .categori-5 {
         width: 160px;
         height: 170px;
       }
-      .categori-6{
+      .categori-6 {
         width: 160px;
         height: 170px;
       }
@@ -2510,18 +2734,17 @@ footer {
       width: 400px;
       justify-content: center;
     }
-  
   }
 
-  .contact-container{ 
+  .contact-container {
     width: 300px;
     .film-shot-2-title {
       height: 1290px;
       width: 290px;
       justify-content: center;
       align-items: center;
-      .film-shots-2-new-page{
-        width:260px;
+      .film-shots-2-new-page {
+        width: 260px;
         justify-content: center;
       }
     }
@@ -2529,18 +2752,17 @@ footer {
 }
 
 @media (max-width: 685px) {
-
   header {
     position: sticky;
     z-index: 150;
     nav {
       width: 185px !important;
       margin-left: 68px;
-      ul{
-        a{
+      ul {
+        a {
           display: none;
         }
-        .burger-bar{
+        .burger-bar {
           display: inline;
           font-size: 30px;
         }
@@ -2548,94 +2770,93 @@ footer {
     }
   }
 
-  .news_page-container{
-  .film-shot-carousel {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
-    width:300px;
-    .my-div-2 {
-      margin-top: 40px;
+  .news_page-container {
+    .film-shot-carousel {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
       width: 300px;
-      height: 300px;
-      border-radius: 20px;
-      border: 1px solid #a3a3a3;
-      #carouselExampleAutoplaying {
+      .my-div-2 {
+        margin-top: 40px;
         width: 300px;
         height: 300px;
         border-radius: 20px;
-  
-        button {
-          width: 56px;
-          height: 56px;
-          background-color: #309d6f;
-          border-radius: 50%;
-          margin-top: 160px;
-        }
-        .carousel-inner {
+        border: 1px solid #a3a3a3;
+        #carouselExampleAutoplaying {
           width: 300px;
           height: 300px;
           border-radius: 20px;
-          .carousel-item {
+
+          button {
+            width: 56px;
+            height: 56px;
+            background-color: #309d6f;
+            border-radius: 50%;
+            margin-top: 160px;
+          }
+          .carousel-inner {
             width: 300px;
             height: 300px;
             border-radius: 20px;
-            .d-md-block {
+            .carousel-item {
               width: 300px;
               height: 300px;
               border-radius: 20px;
-            }
-  
-            .w-100 {
-              height: 300px;
+              .d-md-block {
+                width: 300px;
+                height: 300px;
+                border-radius: 20px;
+              }
+
+              .w-100 {
+                height: 300px;
+              }
             }
           }
         }
       }
     }
   }
-  }
 
-  .contact-container{
+  .contact-container {
     .user-info {
       display: flex;
       justify-content: center;
       align-items: center;
-      width:300px;
-      gap:40px;
+      width: 300px;
+      gap: 40px;
 
-      iframe{
-        width:265px;
-        height:280px;
+      iframe {
+        width: 265px;
+        height: 280px;
       }
 
       .user-form {
-        width:300px;
-        form{
-          width:300px;
+        width: 300px;
+        form {
+          width: 300px;
 
-          h2{
-            width:250px;
+          h2 {
+            width: 250px;
           }
-           .user-inputs {
-
-            .user-name{
+          .user-inputs {
+            .user-name {
               width: 257px;
-              input{
-                width:195px;
+              input {
+                width: 195px;
               }
             }
 
-            .user-email{
+            .user-email {
               width: 257px;
-              input{
-                width:195px;
+              input {
+                width: 195px;
               }
             }
 
-            textarea{
-              width:257px;
+            textarea {
+              width: 257px;
             }
           }
         }
@@ -2643,16 +2864,30 @@ footer {
     }
   }
 
+  .cards-pages-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 191px;
+    width: 100px;
+    .cards-pages-navbar {
+      width: 195px !important;
+      ul {
+        .burger-bar {
+          display: inline-block;
+        }
+      }
+    }
+  }
 }
 
-@media(max-width:600px){
-  
+@media (max-width: 600px) {
   footer {
-    height:700px;
+    height: 700px;
     .footer-container {
       width: 500px;
       .footer-info {
-        width:500px;
+        width: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2661,327 +2896,311 @@ footer {
   }
 }
 
-@media(max-width:550px){
-
-  .my-s-1{ 
+@media (max-width: 550px) {
+  .my-s-1 {
     #carouselExampleAutoplaying {
-      .carousel-inner{
-        height:300px;
+      .carousel-inner {
+        height: 300px;
       }
     }
   }
 
-
-  .my-container{
-    .film-shots{
-      width:300px;
-      .shot-1{
-        width:300px;
-        gap:55px;
+  .my-container {
+    .film-shots {
+      width: 300px;
+      .shot-1 {
+        width: 300px;
+        gap: 55px;
       }
-      .shot-2{
-        width:300px;
-        gap:55px;
+      .shot-2 {
+        width: 300px;
+        gap: 55px;
       }
     }
   }
 
   .fiml_actors_page-container {
-    .film-shots{
-      width:300px;
-      .shot-1{
-        width:300px;
-        gap:55px;
+    .film-shots {
+      width: 300px;
+      .shot-1 {
+        width: 300px;
+        gap: 55px;
       }
-      .shot-2{
-        width:300px;
-        gap:55px !important;
+      .shot-2 {
+        width: 300px;
+        gap: 55px !important;
       }
     }
   }
 
   .news_page-container {
-    .film-shots{
-      width:300px;
-      .shot-1{
-        width:300px;
-        gap:55px;
+    .film-shots {
+      width: 300px;
+      .shot-1 {
+        width: 300px;
+        gap: 55px;
       }
-      .shot-2{
-        width:300px;
-        gap:55px !important;
+      .shot-2 {
+        width: 300px;
+        gap: 55px !important;
       }
     }
   }
-   
+
   footer {
     .footer-container {
-      width:380px;
+      width: 380px;
       .footer-info {
-        width:380px;
+        width: 380px;
       }
     }
   }
 }
 
-@media(max-width:450px){
-  .my-container{ 
+@media (max-width: 450px) {
+  .my-container {
     .film-shots-2 {
-      width:300px;
-      .shot-3{
+      width: 300px;
+      .shot-3 {
         width: 300px;
-        img{
+        img {
           margin-left: 210px;
         }
-      } 
-      .shot-4{
+      }
+      .shot-4 {
         width: 300px;
-        img{
+        img {
           margin-left: 210px;
         }
-      } 
-      .shot-5{
+      }
+      .shot-5 {
         width: 300px;
-        img{
+        img {
           margin-left: 210px;
         }
-      } 
+      }
     }
 
     .film-cards {
-      width:300px;
-      h2{
-        width:300px;
+      width: 300px;
+      h2 {
+        width: 300px;
       }
-      h3{
-        width:300px;
+      h3 {
+        width: 300px;
       }
-      h4{
-        width:300px;
+      h4 {
+        width: 300px;
       }
 
-      .film-card{
-        width:300px;
+      .film-card {
+        width: 300px;
 
         .film-card-info {
-          width:300px;
-          a{
-            button{
-              margin-left:25px;
+          width: 300px;
+          a {
+            button {
+              margin-left: 25px;
             }
           }
 
           .film-card-text {
-            p{
-              width:271px;
-              margin-left:20px;
+            p {
+              width: 271px;
+              margin-left: 20px;
             }
           }
         }
       }
     }
-
-   
   }
 
- .fiml_actors_page-container{ 
-  .film-shots-2 {
-    width:300px;
-    .shot-3{
+  .fiml_actors_page-container {
+    .film-shots-2 {
       width: 300px;
-      img{
-        margin-left: 210px;
-      }
-    } 
-    .shot-4{
-      width: 300px;
-      img{
-        margin-left: 210px;
-      }
-    } 
-    .shot-5{
-      width: 300px;
-      img{
-        margin-left: 210px;
-      }
-    } 
-  }
-
-  .film-cards {
-    width:300px;
-    h2{
-      width:300px !important;
-    }
-    h3{
-      width:300px !important;
-    }
-    h4{
-      width:300px !important;
-    }
-    h5{
-      width:300px !important;
-    }
-    h6{
-      width:300px !important;
-    }
-
-    .ford_vs_ferrari{
-      width:300px !important;
-    }
-
-    .film-catch-me-if-you-can-image{
-      width:300px !important;
-    }
-
-    .film-card{
-      width:300px;
-
-      .film-card-info {
-        width:300px;
-        a{
-          button{
-            margin-left:25px;
-          }
+      .shot-3 {
+        width: 300px;
+        img {
+          margin-left: 210px;
         }
-
-        .film-card-text {
-          p{
-            width:265px !important;
-            margin-left:20px;
-          }
-
+      }
+      .shot-4 {
+        width: 300px;
+        img {
+          margin-left: 210px;
+        }
+      }
+      .shot-5 {
+        width: 300px;
+        img {
+          margin-left: 210px;
         }
       }
     }
+
+    .film-cards {
+      width: 300px;
+      h2 {
+        width: 300px !important;
+      }
+      h3 {
+        width: 300px !important;
+      }
+      h4 {
+        width: 300px !important;
+      }
+      h5 {
+        width: 300px !important;
+      }
+      h6 {
+        width: 300px !important;
+      }
+
+      .ford_vs_ferrari {
+        width: 300px !important;
+      }
+
+      .film-catch-me-if-you-can-image {
+        width: 300px !important;
+      }
+
+      .film-card {
+        width: 300px;
+
+        .film-card-info {
+          width: 300px;
+          a {
+            button {
+              margin-left: 25px;
+            }
+          }
+
+          .film-card-text {
+            p {
+              width: 265px !important;
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+    }
   }
 
- 
+  .news_page-container {
+    .film-shots-2 {
+      width: 300px;
+      .shot-3 {
+        width: 300px;
+        img {
+          margin-left: 210px;
+        }
+      }
+      .shot-4 {
+        width: 300px;
+        img {
+          margin-left: 210px;
+        }
+      }
+      .shot-5 {
+        width: 300px;
+        img {
+          margin-left: 210px;
+        }
+      }
+    }
+
+    .film-cards {
+      width: 300px;
+      h2 {
+        width: 300px !important;
+      }
+      h3 {
+        width: 300px !important;
+      }
+      h4 {
+        width: 300px !important;
+      }
+      h5 {
+        width: 300px !important;
+      }
+      h6 {
+        width: 300px !important;
+      }
+
+      .Deadpool-worverine {
+        width: 300px !important;
+      }
+
+      .ford_vs_ferrari {
+        width: 300px !important;
+      }
+
+      .film-catch-me-if-you-can-image {
+        width: 300px !important;
+      }
+
+      .Despicable-Me-4 {
+        width: 300px !important;
+      }
+
+      .bad-boys {
+        width: 300px !important;
+      }
+
+      .inside-out-2 {
+        width: 300px !important;
+      }
+
+      .KPA {
+        width: 300px !important;
+      }
+
+      .the-darfield-movie {
+        width: 300px !important;
+      }
+
+      .film-card {
+        width: 300px;
+
+        .film-card-info {
+          width: 300px;
+          a {
+            button {
+              margin-left: 25px;
+            }
+          }
+
+          .film-card-text {
+            p {
+              width: 265px !important;
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
-.news_page-container{ 
-  .film-shots-2 {
-    width:300px;
-    .shot-3{
-      width: 300px;
-      img{
-        margin-left: 210px;
-      }
-    } 
-    .shot-4{
-      width: 300px;
-      img{
-        margin-left: 210px;
-      }
-    } 
-    .shot-5{
-      width: 300px;
-      img{
-        margin-left: 210px;
-      }
-    } 
-  }
-
-  .film-cards {
-    width:300px;
-    h2{
-      width:300px !important;
-    }
-    h3{
-      width:300px !important;
-    }
-    h4{
-      width:300px !important;
-    }
-    h5{
-      width:300px !important;
-    }
-    h6{
-      width:300px !important;
-    }
-
-    .Deadpool-worverine{
-     width:300px !important;
-    }
-
-    .ford_vs_ferrari{
-      width:300px !important;
-    }
-
-    .film-catch-me-if-you-can-image{
-      width:300px !important;
-    }
-
-    .Despicable-Me-4 {
-      width:300px !important;
-    }
-
-    .bad-boys{
-      width:300px !important;
-    }
-
-    .inside-out-2{
-      width:300px !important;
-    }
-
-    .KPA{
-      width:300px !important;
-    }
-
-    .the-darfield-movie{
-      width:300px !important;
-    }
-
-
-
-
-
-
-    .film-card{
-      width:300px;
-
-      .film-card-info {
-        width:300px;
-        a{
-          button{
-            margin-left:25px;
-          }
-        }
-
-        .film-card-text {
-          p{
-            width:265px !important;
-            margin-left:20px;
-          }
-
-        }
-      }
-    }
-  }
-
- 
-}
-}
-
-@media(max-width:440px){ 
+@media (max-width: 440px) {
   footer {
     .footer-container {
-      width:295px;
+      width: 295px;
       .footer-info {
-        width:295px;
-
-        }
+        width: 295px;
       }
     }
+  }
 
-    .fiml_actors_page-container {
-      .categories{
-        width: 165px;
-      }
+  .fiml_actors_page-container {
+    .categories {
+      width: 165px;
     }
+  }
 
-    .news_page-container{
-      .categories{
-        width: 165px;
-      }
+  .news_page-container {
+    .categories {
+      width: 165px;
     }
+  }
 }
