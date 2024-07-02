@@ -90,6 +90,9 @@ header nav ul {
           align-items: center;
   gap: 30px;
 }
+header nav ul .burger-bar {
+  display: none;
+}
 header nav ul li input {
   width: 500px;
   height: 45px;
@@ -3696,7 +3699,7 @@ footer .footer-container .footer-info .social a h5 span .fa-linkedin-in {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 4.5px #309D6F solid;
+  border-bottom: 4.5px #309d6f solid;
   font-size: 32px;
   font-weight: 500;
   font-family: "ALK Sanet", sans-serif;
@@ -3723,7 +3726,7 @@ footer .footer-container .footer-info .social a h5 span .fa-linkedin-in {
 .card-pages-container .film-actor_info .bottom-info .additional-info span {
   font-size: 32px;
   font-family: "ALK Sanet", sans-serif;
-  color: #0E1020;
+  color: #0e1020;
   border-bottom: 3px #006d9b solid;
 }
 .card-pages-container .film-actor_info .bottom-info .additional-info p {
@@ -4025,4 +4028,1143 @@ footer .footer-container .footer-info .social a h5 span .fa-linkedin-in {
           box-shadow: 0px 12px 20px -10px black;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+@media (max-width: 1245px) {
+  header {
+    position: sticky;
+    z-index: 150;
+  }
+  header nav {
+    gap: 120px !important;
+    width: 785px !important;
+    margin-left: 100px;
+  }
+  header nav ul li input {
+    display: none;
+  }
+  .my-s-1 #carouselExampleAutoplaying .carousel-indicators {
+    display: none;
+  }
+  .my-container {
+    width: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .my-container .my-cards {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-shots {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-cards {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-shots-2 {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container {
+    width: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fiml_actors_page-container .categories {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .my-cards {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .film-shots {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .film-cards {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .film-shots-2 {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container {
+    width: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .news_page-container .film-shot-2-title {
+    height: 700px;
+    width: 935px;
+  }
+  .news_page-container .film-shot-2-title .film-shots-2-new-page {
+    width: 810px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-shot-carousel {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 610px;
+  }
+  .news_page-container .categories {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .my-cards {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-shots {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-cards {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-shots-2 {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer {
+    width: 100%;
+    height: 490px;
+  }
+  footer .footer-container {
+    width: 1000px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 45px;
+  }
+  .contact-container {
+    width: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-container .film-shot-2-title {
+    height: 700px;
+    width: 935px;
+  }
+  .contact-container .film-shot-2-title .film-shots-2-new-page {
+    width: 810px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .user-info {
+    width: 620px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  header {
+    position: sticky;
+    z-index: 150;
+  }
+  header nav {
+    gap: 120px !important;
+    width: 785px !important;
+    margin-left: 55px;
+  }
+  .my-container {
+    width: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .my-container .my-cards {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-shots {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-cards {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-shots-2 {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container {
+    width: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fiml_actors_page-container .my-cards {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .film-shots {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .film-cards {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .film-shots-2 {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container {
+    width: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .news_page-container .my-cards {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-shot-2-title {
+    height: 700px;
+    width: 653px;
+  }
+  .news_page-container .film-shot-2-title .film-shots-2-new-page {
+    width: 535px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-shots {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-cards {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-shots-2 {
+    width: 900px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer {
+    width: 100%;
+    height: 490px;
+  }
+  footer .footer-container {
+    width: 800px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 45px;
+  }
+  .contact-container {
+    width: 900px;
+  }
+  .contact-container .film-shot-2-title {
+    height: 700px;
+    width: 653px;
+  }
+  .contact-container .film-shot-2-title .film-shots-2-new-page {
+    width: 535px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 900px) {
+  header {
+    position: sticky;
+    z-index: 150;
+  }
+  header nav {
+    gap: 120px !important;
+    width: 785px !important;
+    margin-left: -40px;
+  }
+  .my-s-1 #carouselExampleAutoplaying .carousel-inner {
+    height: 500px;
+  }
+  .my-s-1 #carouselExampleAutoplaying button .carousel-control-prev {
+    display: none;
+  }
+  .my-s-1 #carouselExampleAutoplaying button .carousel-control-next {
+    display: none;
+  }
+  .my-container {
+    width: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .my-container .my-cards {
+    width: 700px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-shots {
+    width: 700px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-cards {
+    width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-shots-2 {
+    width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container {
+    width: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fiml_actors_page-container .my-cards {
+    width: 700px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .film-shots {
+    width: 700px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .film-cards {
+    width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .film-shots-2 {
+    width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container {
+    width: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .news_page-container .my-cards {
+    width: 700px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-shots {
+    width: 700px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-cards {
+    width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-shots-2 {
+    width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact-container {
+    width: 700px;
+  }
+  footer {
+    width: 100%;
+    height: 490px;
+  }
+  footer .footer-container {
+    width: 800px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 45px;
+  }
+}
+@media (max-width: 900px) {
+  header {
+    position: sticky;
+    z-index: 150;
+  }
+  header nav {
+    gap: 120px !important;
+    width: 785px !important;
+    margin-left: -40px;
+  }
+  footer .footer-container {
+    width: 600px;
+  }
+  footer .footer-container .footer-info {
+    gap: 57px;
+  }
+}
+@media (max-width: 800px) {
+  header {
+    position: sticky;
+    z-index: 150;
+  }
+  header nav {
+    gap: 0px !important;
+    width: 675px !important;
+    margin-left: 13px;
+  }
+}
+@media (max-width: 700px) {
+  header {
+    position: sticky;
+    z-index: 150;
+  }
+  header nav {
+    margin-left: -185px;
+  }
+  .my-container {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .my-container .my-cards {
+    width: 300px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-shots {
+    width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-cards {
+    width: 400px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .my-container .film-shots-2 {
+    width: 400px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fiml_actors_page-container .my-cards {
+    width: 300px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .categories {
+    width: 400px;
+  }
+  .fiml_actors_page-container .categories .categori-1 {
+    width: 160px;
+    height: 170px;
+  }
+  .fiml_actors_page-container .categories .categori-2 {
+    width: 160px;
+    height: 170px;
+  }
+  .fiml_actors_page-container .categories .categori-3 {
+    width: 160px;
+    height: 170px;
+  }
+  .fiml_actors_page-container .categories .categori-4 {
+    width: 160px;
+    height: 170px;
+  }
+  .fiml_actors_page-container .categories .categori-5 {
+    width: 160px;
+    height: 170px;
+  }
+  .fiml_actors_page-container .categories .categori-6 {
+    width: 160px;
+    height: 170px;
+  }
+  .fiml_actors_page-container .film-shots {
+    width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .film-cards {
+    width: 400px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fiml_actors_page-container .film-shots-2 {
+    width: 400px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .news_page-container .my-cards {
+    width: 300px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-shot-2-title {
+    height: 1290px;
+    width: 290px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .news_page-container .film-shot-2-title .film-shots-2-new-page {
+    width: 260px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .categories {
+    width: 400px;
+  }
+  .news_page-container .categories .categori-1 {
+    width: 160px;
+    height: 170px;
+  }
+  .news_page-container .categories .categori-2 {
+    width: 160px;
+    height: 170px;
+  }
+  .news_page-container .categories .categori-3 {
+    width: 160px;
+    height: 170px;
+  }
+  .news_page-container .categories .categori-4 {
+    width: 160px;
+    height: 170px;
+  }
+  .news_page-container .categories .categori-5 {
+    width: 160px;
+    height: 170px;
+  }
+  .news_page-container .categories .categori-6 {
+    width: 160px;
+    height: 170px;
+  }
+  .news_page-container .film-shots {
+    width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-cards {
+    width: 400px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news_page-container .film-shots-2 {
+    width: 400px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact-container {
+    width: 300px;
+  }
+  .contact-container .film-shot-2-title {
+    height: 1290px;
+    width: 290px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-container .film-shot-2-title .film-shots-2-new-page {
+    width: 260px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 685px) {
+  header {
+    position: sticky;
+    z-index: 150;
+  }
+  header nav {
+    width: 185px !important;
+    margin-left: 68px;
+  }
+  header nav ul a {
+    display: none;
+  }
+  header nav ul .burger-bar {
+    display: inline;
+    font-size: 30px;
+  }
+  .news_page-container .film-shot-carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+    width: 300px;
+  }
+  .news_page-container .film-shot-carousel .my-div-2 {
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid #a3a3a3;
+  }
+  .news_page-container .film-shot-carousel .my-div-2 #carouselExampleAutoplaying {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .news_page-container .film-shot-carousel .my-div-2 #carouselExampleAutoplaying button {
+    width: 56px;
+    height: 56px;
+    background-color: #309d6f;
+    border-radius: 50%;
+    margin-top: 160px;
+  }
+  .news_page-container .film-shot-carousel .my-div-2 #carouselExampleAutoplaying .carousel-inner {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .news_page-container .film-shot-carousel .my-div-2 #carouselExampleAutoplaying .carousel-inner .carousel-item {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .news_page-container .film-shot-carousel .my-div-2 #carouselExampleAutoplaying .carousel-inner .carousel-item .d-md-block {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .news_page-container .film-shot-carousel .my-div-2 #carouselExampleAutoplaying .carousel-inner .carousel-item .w-100 {
+    height: 300px;
+  }
+  .contact-container .user-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 300px;
+    gap: 40px;
+  }
+  .contact-container .user-info iframe {
+    width: 265px;
+    height: 280px;
+  }
+  .contact-container .user-info .user-form {
+    width: 300px;
+  }
+  .contact-container .user-info .user-form form {
+    width: 300px;
+  }
+  .contact-container .user-info .user-form form h2 {
+    width: 250px;
+  }
+  .contact-container .user-info .user-form form .user-inputs .user-name {
+    width: 257px;
+  }
+  .contact-container .user-info .user-form form .user-inputs .user-name input {
+    width: 195px;
+  }
+  .contact-container .user-info .user-form form .user-inputs .user-email {
+    width: 257px;
+  }
+  .contact-container .user-info .user-form form .user-inputs .user-email input {
+    width: 195px;
+  }
+  .contact-container .user-info .user-form form .user-inputs textarea {
+    width: 257px;
+  }
+}
+@media (max-width: 600px) {
+  footer {
+    height: 700px;
+  }
+  footer .footer-container {
+    width: 500px;
+  }
+  footer .footer-container .footer-info {
+    width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (max-width: 550px) {
+  .my-s-1 #carouselExampleAutoplaying .carousel-inner {
+    height: 300px;
+  }
+  .my-container .film-shots {
+    width: 300px;
+  }
+  .my-container .film-shots .shot-1 {
+    width: 300px;
+    gap: 55px;
+  }
+  .my-container .film-shots .shot-2 {
+    width: 300px;
+    gap: 55px;
+  }
+  .fiml_actors_page-container .film-shots {
+    width: 300px;
+  }
+  .fiml_actors_page-container .film-shots .shot-1 {
+    width: 300px;
+    gap: 55px;
+  }
+  .fiml_actors_page-container .film-shots .shot-2 {
+    width: 300px;
+    gap: 55px !important;
+  }
+  .news_page-container .film-shots {
+    width: 300px;
+  }
+  .news_page-container .film-shots .shot-1 {
+    width: 300px;
+    gap: 55px;
+  }
+  .news_page-container .film-shots .shot-2 {
+    width: 300px;
+    gap: 55px !important;
+  }
+  footer .footer-container {
+    width: 380px;
+  }
+  footer .footer-container .footer-info {
+    width: 380px;
+  }
+}
+@media (max-width: 450px) {
+  .my-container .film-shots-2 {
+    width: 300px;
+  }
+  .my-container .film-shots-2 .shot-3 {
+    width: 300px;
+  }
+  .my-container .film-shots-2 .shot-3 img {
+    margin-left: 210px;
+  }
+  .my-container .film-shots-2 .shot-4 {
+    width: 300px;
+  }
+  .my-container .film-shots-2 .shot-4 img {
+    margin-left: 210px;
+  }
+  .my-container .film-shots-2 .shot-5 {
+    width: 300px;
+  }
+  .my-container .film-shots-2 .shot-5 img {
+    margin-left: 210px;
+  }
+  .my-container .film-cards {
+    width: 300px;
+  }
+  .my-container .film-cards h2 {
+    width: 300px;
+  }
+  .my-container .film-cards h3 {
+    width: 300px;
+  }
+  .my-container .film-cards h4 {
+    width: 300px;
+  }
+  .my-container .film-cards .film-card {
+    width: 300px;
+  }
+  .my-container .film-cards .film-card .film-card-info {
+    width: 300px;
+  }
+  .my-container .film-cards .film-card .film-card-info a button {
+    margin-left: 25px;
+  }
+  .my-container .film-cards .film-card .film-card-info .film-card-text p {
+    width: 271px;
+    margin-left: 20px;
+  }
+  .fiml_actors_page-container .film-shots-2 {
+    width: 300px;
+  }
+  .fiml_actors_page-container .film-shots-2 .shot-3 {
+    width: 300px;
+  }
+  .fiml_actors_page-container .film-shots-2 .shot-3 img {
+    margin-left: 210px;
+  }
+  .fiml_actors_page-container .film-shots-2 .shot-4 {
+    width: 300px;
+  }
+  .fiml_actors_page-container .film-shots-2 .shot-4 img {
+    margin-left: 210px;
+  }
+  .fiml_actors_page-container .film-shots-2 .shot-5 {
+    width: 300px;
+  }
+  .fiml_actors_page-container .film-shots-2 .shot-5 img {
+    margin-left: 210px;
+  }
+  .fiml_actors_page-container .film-cards {
+    width: 300px;
+  }
+  .fiml_actors_page-container .film-cards h2 {
+    width: 300px !important;
+  }
+  .fiml_actors_page-container .film-cards h3 {
+    width: 300px !important;
+  }
+  .fiml_actors_page-container .film-cards h4 {
+    width: 300px !important;
+  }
+  .fiml_actors_page-container .film-cards h5 {
+    width: 300px !important;
+  }
+  .fiml_actors_page-container .film-cards h6 {
+    width: 300px !important;
+  }
+  .fiml_actors_page-container .film-cards .ford_vs_ferrari {
+    width: 300px !important;
+  }
+  .fiml_actors_page-container .film-cards .film-catch-me-if-you-can-image {
+    width: 300px !important;
+  }
+  .fiml_actors_page-container .film-cards .film-card {
+    width: 300px;
+  }
+  .fiml_actors_page-container .film-cards .film-card .film-card-info {
+    width: 300px;
+  }
+  .fiml_actors_page-container .film-cards .film-card .film-card-info a button {
+    margin-left: 25px;
+  }
+  .fiml_actors_page-container .film-cards .film-card .film-card-info .film-card-text p {
+    width: 265px !important;
+    margin-left: 20px;
+  }
+  .news_page-container .film-shots-2 {
+    width: 300px;
+  }
+  .news_page-container .film-shots-2 .shot-3 {
+    width: 300px;
+  }
+  .news_page-container .film-shots-2 .shot-3 img {
+    margin-left: 210px;
+  }
+  .news_page-container .film-shots-2 .shot-4 {
+    width: 300px;
+  }
+  .news_page-container .film-shots-2 .shot-4 img {
+    margin-left: 210px;
+  }
+  .news_page-container .film-shots-2 .shot-5 {
+    width: 300px;
+  }
+  .news_page-container .film-shots-2 .shot-5 img {
+    margin-left: 210px;
+  }
+  .news_page-container .film-cards {
+    width: 300px;
+  }
+  .news_page-container .film-cards h2 {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards h3 {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards h4 {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards h5 {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards h6 {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards .Deadpool-worverine {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards .ford_vs_ferrari {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards .film-catch-me-if-you-can-image {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards .Despicable-Me-4 {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards .bad-boys {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards .inside-out-2 {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards .KPA {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards .the-darfield-movie {
+    width: 300px !important;
+  }
+  .news_page-container .film-cards .film-card {
+    width: 300px;
+  }
+  .news_page-container .film-cards .film-card .film-card-info {
+    width: 300px;
+  }
+  .news_page-container .film-cards .film-card .film-card-info a button {
+    margin-left: 25px;
+  }
+  .news_page-container .film-cards .film-card .film-card-info .film-card-text p {
+    width: 265px !important;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 440px) {
+  footer .footer-container {
+    width: 295px;
+  }
+  footer .footer-container .footer-info {
+    width: 295px;
+  }
+  .fiml_actors_page-container .categories {
+    width: 165px;
+  }
+  .news_page-container .categories {
+    width: 165px;
+  }
 }/*# sourceMappingURL=global.css.map */

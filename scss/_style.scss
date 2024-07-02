@@ -27,6 +27,10 @@ header {
       align-items: center;
       gap: 30px;
 
+      .burger-bar{
+        display: none;
+      }
+
       li {
         input {
           width: 500px;
@@ -500,8 +504,6 @@ footer {
     gap: 20px;
     margin-top: 32px;
 
-    
-
     .film-card {
       display: flex;
       flex-direction: column;
@@ -511,41 +513,36 @@ footer {
       width: 400px;
       height: 492px;
       transition: 1s;
-      
 
       h5 {
         background-image: url("../images/Indiana-Jones-film-page.jpg");
         @include film-card-image;
       }
-  
-      
-      .ford_vs_ferrari{
-          background-image: url("../images/Ford_v_Ferrari_card.jpg");
-          @include film-card-image;
+
+      .ford_vs_ferrari {
+        background-image: url("../images/Ford_v_Ferrari_card.jpg");
+        @include film-card-image;
       }
-      
-      
-  
+
       h3 {
         background-image: url("../images/Men_in_Black_card.jpg");
         @include film-card-image;
       }
-  
+
       h4 {
         background-image: url("../images/pink_panther-card.jpg");
         @include film-card-image;
       }
-  
+
       h6 {
         background-image: url("../images/bad-boys-film-page.jpg");
         @include film-card-image;
       }
-  
-      .film-catch-me-if-you-can-image{
+
+      .film-catch-me-if-you-can-image {
         background-image: url("../images/catch-me-if-you-can-film-page.jfif");
         @include film-card-image;
       }
-      
 
       .film-card-info {
         display: flex;
@@ -613,22 +610,22 @@ footer {
       @include card-image;
     }
 
-    .leonardo{
+    .leonardo {
       background-image: url("../images/Leonardo_DiCaprio.jpg");
       @include card-image;
     }
-    
-    .shvarcnegger{
+
+    .shvarcnegger {
       background-image: url("../images/Arnold_Schwarzenegger.jpg");
       @include card-image;
     }
 
-    .Lawrence{
+    .Lawrence {
       background-image: url("../images/Martin-Lawrence.jpg");
       @include card-image;
     }
 
-    .Cavill{
+    .Cavill {
       background-image: url("../images/Henry_Cavill.jpg");
       @include card-image;
     }
@@ -713,7 +710,7 @@ footer {
         margin-left: 210px;
       }
 
-      p{
+      p {
         width: 118px;
       }
     }
@@ -761,7 +758,6 @@ footer {
       @include shot-hover;
     }
 
-    
     .shot-6 {
       background-image: url("../images/The Martian.jpg");
       @include film-shot-2;
@@ -781,7 +777,6 @@ footer {
     .shot-6:hover {
       @include shot-hover;
     }
-    
   }
 
   .film-shots {
@@ -872,12 +867,11 @@ footer {
   margin: 0 auto;
   margin-top: 174px;
 
-  .films{
+  .films {
     margin-top: 115px;
     font-family: $georgian-font;
     font-size: 24px;
   }
-
 
   .film-cards {
     display: flex;
@@ -885,9 +879,6 @@ footer {
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 40px;
-
-
-
 
     .film-card {
       display: flex;
@@ -899,34 +890,32 @@ footer {
       height: 492px;
       transition: 1s;
 
-      .Deadpool-worverine{
+      .Deadpool-worverine {
         background-image: url("../images/deadpool-&-worverine-news.jpg");
         @include film-card-image;
-       }
+      }
 
-
-      .Despicable-Me-4{
+      .Despicable-Me-4 {
         background-image: url("../images/Despicable-Me-4-news.jfif");
         @include film-card-image;
       }
-       
-      
-      .bad-boys{
+
+      .bad-boys {
         background-image: url("../images/bad-boys-film-page.jpg");
         @include film-card-image;
       }
 
-      .inside-out-2{
+      .inside-out-2 {
         background-image: url("../images/inside-out-2-news.jpeg");
         @include film-card-image;
       }
 
-      .the-darfield-movie{
+      .the-darfield-movie {
         background-image: url("../images/The-Garfield-Movie.jpeg");
         @include film-card-image;
       }
 
-      .KPA{
+      .KPA {
         background-image: url("../images/KPA-news.jfif");
         @include film-card-image;
       }
@@ -974,8 +963,7 @@ footer {
     }
   }
 
-
-  h1{
+  h1 {
     margin-top: 115px;
     font-family: $georgian-font;
     font-size: 24px;
@@ -1019,7 +1007,7 @@ footer {
           margin-left: 180px;
         }
 
-        p{
+        p {
           width: 182px;
         }
       }
@@ -1086,10 +1074,9 @@ footer {
       .shot-6:hover {
         @include shot-hover;
       }
-
     }
   }
-  
+
   .my-cards {
     display: flex;
     align-items: center;
@@ -1107,22 +1094,22 @@ footer {
       @include card-image;
     }
 
-    .leonardo{
+    .leonardo {
       background-image: url("../images/Leonardo_DiCaprio.jpg");
       @include card-image;
     }
-    
-    .shvarcnegger{
+
+    .shvarcnegger {
       background-image: url("../images/Arnold_Schwarzenegger.jpg");
       @include card-image;
     }
 
-    .Lawrence{
+    .Lawrence {
       background-image: url("../images/Martin-Lawrence.jpg");
       @include card-image;
     }
 
-    .Cavill{
+    .Cavill {
       background-image: url("../images/Henry_Cavill.jpg");
       @include card-image;
     }
@@ -1236,7 +1223,7 @@ footer {
           margin-left: 180px;
         }
 
-        p{
+        p {
           width: 182px;
         }
       }
@@ -1250,11 +1237,11 @@ footer {
         @include film-shot-2;
         width: 256px;
         height: 272px;
-  
+
         img {
           margin-left: 180px;
         }
-  
+
         p {
           width: 140px;
           background-color: #006d9b;
@@ -1268,13 +1255,13 @@ footer {
       .shot-5 {
         background-image: url("../images/The Martian.jpg");
         @include film-shot-2;
-         width: 256px;
+        width: 256px;
         height: 272px;
-  
+
         img {
           margin-left: 180px;
         }
-  
+
         p {
           width: 162px;
           background-color: #006d9b;
@@ -1439,18 +1426,17 @@ footer {
   }
 }
 
-
 // -------------------------------Card Pages-------------------------------
 
-.cards-pages-header{
-  .cards-pages-navbar{
+.cards-pages-header {
+  .cards-pages-navbar {
     background-color: transparent;
     border-bottom: 1px solid black;
     border-radius: 0px;
     width: 1235px;
-    ul{
-      a{
-        li{
+    ul {
+      a {
+        li {
           color: black;
         }
       }
@@ -1462,7 +1448,7 @@ footer {
   width: 1245px;
   margin: 0 auto;
 
-  .go-back{
+  .go-back {
     display: flex;
     align-items: center;
     gap: 2px;
@@ -1471,241 +1457,239 @@ footer {
     font-weight: 500;
     font-family: $georgian-font;
     margin-left: 90px;
-    
-    a{
+
+    a {
       color: black;
     }
   }
-  
-  .film-actor_info{
+
+  .film-actor_info {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 130px;
     margin-top: 15px;
 
-    .top-info{
+    .top-info {
       display: flex;
       align-items: flex-start;
       gap: 200px;
 
-      .brad-pitt-image{
+      .brad-pitt-image {
         background-image: url("../images/Brad_Pitt.jpg");
         @include card-pages-images;
       }
 
-      .brad-pitt-image:hover{
+      .brad-pitt-image:hover {
         @include shadow-hover;
       }
 
-      .dicaprio-image{
+      .dicaprio-image {
         background-image: url("../images/Leonardo_DiCaprio.jpg");
         @include card-pages-images;
       }
 
-      .dicaprio-image:hover{
+      .dicaprio-image:hover {
         @include shadow-hover;
       }
 
-      .shvarcnegger-image{
+      .shvarcnegger-image {
         background-image: url("../images/Arnold_Schwarzenegger.jpg");
         @include card-pages-images;
       }
 
-      .shvarcnegger-image:hover{
+      .shvarcnegger-image:hover {
         @include shadow-hover;
       }
 
-      .will-smith-image{
+      .will-smith-image {
         background-image: url("../images/will_smith.jpg");
         @include card-pages-images;
       }
 
-      .will-smith-image:hover{
+      .will-smith-image:hover {
         @include shadow-hover;
       }
 
-      .daniel-craig-image{
+      .daniel-craig-image {
         background-image: url("../images/Daniel_Craig-film-page.jpg");
         @include card-pages-images;
       }
 
-      .daniel-craig-image:hover{
+      .daniel-craig-image:hover {
         @include shadow-hover;
       }
 
-      .martin-lawrence-image{
+      .martin-lawrence-image {
         background-image: url("../images/Martin-Lawrence.jpg");
         @include card-pages-images;
       }
 
-      .martin-lawrence-image:hover{
+      .martin-lawrence-image:hover {
         @include shadow-hover;
       }
 
-      .tom-hanks-image{
+      .tom-hanks-image {
         background-image: url("../images/tom_hanks-film-page.jpg");
         @include card-pages-images;
       }
 
-      .tom-hanks-image:hover{
+      .tom-hanks-image:hover {
         @include shadow-hover;
       }
 
-      .hanry-cavill-image{
+      .hanry-cavill-image {
         background-image: url("../images/Henry_Cavill.jpg");
         @include card-pages-images;
       }
 
-      .hanry-cavill-image:hover{
+      .hanry-cavill-image:hover {
         @include shadow-hover;
       }
 
-      .ford_vs_ferrari-image{
+      .ford_vs_ferrari-image {
         background-image: url("../images/Ford_v_Ferrari_card.jpg");
         @include card-pages-images;
       }
 
-      .ford_vs_ferrari-image:hover{
+      .ford_vs_ferrari-image:hover {
         @include shadow-hover;
       }
 
-      .man-in-black-image{
+      .man-in-black-image {
         background-image: url("../images/Men_in_Black_card.jpg");
         @include card-pages-images;
       }
 
-      .man-in-black-image:hover{
+      .man-in-black-image:hover {
         @include shadow-hover;
       }
 
-      .the-pink-panther-image{
+      .the-pink-panther-image {
         background-image: url("../images/the_pink_panther-image-film-cards.jpg");
         @include card-pages-images;
       }
 
-      .the-pink-panther-image:hover{
+      .the-pink-panther-image:hover {
         @include shadow-hover;
       }
 
-      .indiana-jones-image{
+      .indiana-jones-image {
         background-image: url("../images/Indiana-Jones-film-page.jpg");
         @include card-pages-images;
       }
 
-      .indiana-jones-image:hover{
+      .indiana-jones-image:hover {
         @include shadow-hover;
       }
 
-      .bad-boys-image{
+      .bad-boys-image {
         background-image: url("../images/Bad_Boys_Ride_or_Die-film-image-page.webp");
         @include card-pages-images;
       }
 
-      .bad-boys-image:hover{
+      .bad-boys-image:hover {
         @include shadow-hover;
       }
 
-      .CMIYC-image{
+      .CMIYC-image {
         background-image: url("../images/catch-me-if-you-can-film-page.jfif");
         @include card-pages-images;
       }
 
-      .CMIYC-image:hover{
+      .CMIYC-image:hover {
         @include shadow-hover;
       }
 
-      .Deadpool-Wolverine-image{
+      .Deadpool-Wolverine-image {
         background-image: url("../images/deadpool-&-worverine-news.jpg");
         @include card-pages-images;
       }
 
-      .Deadpool-Wolverine:hover{
+      .Deadpool-Wolverine:hover {
         @include shadow-hover;
       }
 
-      .The-Garfield-Movie-image{
+      .The-Garfield-Movie-image {
         background-image: url("../images/The-Garfield-Movie-news-page-image.jpg");
         @include card-pages-images;
       }
 
-      .The-Garfield-Movie:hover{
+      .The-Garfield-Movie:hover {
         @include shadow-hover;
       }
 
-      .Despicable-Me-4-image{
+      .Despicable-Me-4-image {
         background-image: url("../images/Despicable-Me-4-news.jfif");
         @include card-pages-images;
       }
 
-      .Despicable-Me-4-image:hover{
+      .Despicable-Me-4-image:hover {
         @include shadow-hover;
       }
 
-      .Inside-Out-2-image{
+      .Inside-Out-2-image {
         background-image: url("../images/Inside-Out-2-news-image.jfif");
         @include card-pages-images;
       }
 
-      .Inside-Out-2-image:hover{
+      .Inside-Out-2-image:hover {
         @include shadow-hover;
       }
 
-      .KPA-image{
+      .KPA-image {
         background-image: url("../images/KPA-news-image.jpg");
         @include card-pages-images;
       }
 
-      .KPA-image:hover{
+      .KPA-image:hover {
         @include shadow-hover;
       }
 
-
-      .top-text-info{
+      .top-text-info {
         display: flex;
         flex-direction: column;
         gap: 28px;
-        
-        p{
+
+        p {
           width: 369px;
           height: 182px;
           font-size: 18px;
           font-family: $georgian-font;
         }
 
-        span{
+        span {
           font-size: 32px;
           font-weight: 600;
           font-family: $georgian-font;
         }
       }
-
     }
 
-    .bottom-info{
+    .bottom-info {
       display: flex;
       align-items: baseline;
-      gap:75px;
+      gap: 75px;
 
-      .desctiption{
+      .desctiption {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 40px;
 
-        span{
-          width:320px; 
+        span {
+          width: 320px;
           height: 88px;
           display: flex;
           justify-content: center;
           align-items: center;
-          border-bottom: 4.5px #309D6F solid;
+          border-bottom: 4.5px #309d6f solid;
           font-size: 32px;
           font-weight: 500;
           font-family: $georgian-font;
         }
 
-        p{
+        p {
           width: 660px;
           height: 160px;
           font-size: 24px;
@@ -1713,33 +1697,29 @@ footer {
         }
       }
 
-      .additional-info{
+      .additional-info {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 48px;
 
-        span{
+        span {
           font-size: 32px;
           font-family: $georgian-font;
-          color: #0E1020;
+          color: #0e1020;
           border-bottom: 3px #006d9b solid;
         }
 
-        p{
+        p {
           font-size: 16px;
           color: #101223;
           font-family: $georgian-font;
           width: 328px;
-          
         }
       }
-
     }
-
-    
   }
-  
+
   .film-cards {
     display: flex;
     align-items: center;
@@ -1815,7 +1795,7 @@ footer {
     }
   }
 
-  h1{
+  h1 {
     margin-top: 108px;
     font-family: $georgian-font;
     font-size: 24px;
@@ -1838,22 +1818,22 @@ footer {
       @include card-image;
     }
 
-    .leonardo{
+    .leonardo {
       background-image: url("../images/Leonardo_DiCaprio.jpg");
       @include card-image;
     }
-    
-    .shvarcnegger{
+
+    .shvarcnegger {
       background-image: url("../images/Arnold_Schwarzenegger.jpg");
       @include card-image;
     }
 
-    .Lawrence{
+    .Lawrence {
       background-image: url("../images/Martin-Lawrence.jpg");
       @include card-image;
     }
 
-    .Cavill{
+    .Cavill {
       background-image: url("../images/Henry_Cavill.jpg");
       @include card-image;
     }
@@ -1920,4 +1900,1088 @@ footer {
       @include shadow-hover;
     }
   }
+}
+
+@media (max-width: 1245px) {
+  header {
+    position: sticky;
+    z-index: 150;
+    nav {
+      gap: 120px !important;
+      width: 785px !important;
+      margin-left: 100px;
+
+      ul{
+        li{
+          input{
+            display:none;
+          }
+        }
+      }
+    }
+  }
+
+  .my-s-1 {
+    #carouselExampleAutoplaying {
+      .carousel-indicators {
+        display: none;
+      }
+    }
+  }
+
+  .my-container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .my-cards {
+      width: 1000px;
+      justify-content: center;
+    }
+
+    .film-shots {
+      width: 1000px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 1000px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 1000px;
+      justify-content: center;
+    }
+  }
+
+  .fiml_actors_page-container{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .categories{
+      justify-content: center;
+    }
+
+    .my-cards {
+      width: 1000px;
+      justify-content: center;
+    }
+
+    .film-shots {
+      width: 1000px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 1000px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 1000px;
+      justify-content: center;
+    }
+  }
+
+  .news_page-container{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .film-shot-2-title {
+      height: 700px;
+      width:935px;
+      .film-shots-2-new-page{
+        width:810px;
+        justify-content: center;
+      }
+    }
+
+    .film-shot-carousel{
+      justify-content:center ;
+      width:610px;
+    }
+
+
+    .categories{
+      justify-content: center;
+    }
+
+    .my-cards {
+      width: 1000px;
+      justify-content: center;
+    }
+
+    .film-shots {
+      width: 1000px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 1000px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 1000px;
+      justify-content: center;
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: 490px;
+    .footer-container {
+      width: 1000px;
+      justify-content: center;
+      gap: 45px;
+    }
+  }
+
+  .contact-container{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .film-shot-2-title {
+    height: 700px;
+    width:935px;
+    .film-shots-2-new-page{
+      width:810px;
+      justify-content: center;
+      }
+    }
+  }
+
+  .user-info{
+    width: 620px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  header {
+    position: sticky;
+    z-index: 150;
+    nav {
+      gap: 120px !important;
+      width: 785px !important;
+      margin-left: 55px;
+    }
+  }
+
+  .my-container {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .my-cards {
+      width: 900px;
+      justify-content: center;
+    }
+
+    .film-shots {
+      width: 900px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 900px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 900px;
+      justify-content: center;
+    }
+  }
+
+  .fiml_actors_page-container {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .my-cards {
+      width: 900px;
+      justify-content: center;
+    }
+
+    .film-shots {
+      width: 900px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 900px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 900px;
+      justify-content: center;
+    }
+  }
+
+  .news_page-container {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .my-cards {
+      width: 900px;
+      justify-content: center;
+    }
+
+    .film-shot-2-title {
+      height: 700px;
+      width:653px;
+      .film-shots-2-new-page{
+        width:535px;
+        justify-content: center;
+      }
+    }
+
+    .film-shots {
+      width: 900px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 900px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 900px;
+      justify-content: center;
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: 490px;
+    .footer-container {
+      width: 800px;
+      justify-content: center;
+      gap: 45px;
+    }
+  }
+
+  .contact-container{
+    width: 900px;
+    .film-shot-2-title {
+    height: 700px;
+    width:653px;
+    .film-shots-2-new-page{
+      width:535px;
+      justify-content: center;
+    }
+  }}
+}
+
+@media (max-width: 900px) {
+  header {
+    position: sticky;
+    z-index: 150;
+    nav {
+      gap: 120px !important;
+      width: 785px !important;
+      margin-left: -40px;
+    }
+  }
+
+  .my-s-1 {
+    #carouselExampleAutoplaying {
+      .carousel-inner {
+        height: 500px;
+      }
+      button{
+        .carousel-control-prev{
+          display:none;
+        }
+        .carousel-control-next{
+          display:none;
+        }
+      }
+    }
+  }
+
+  .my-container {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .my-cards {
+      width: 700px;
+      justify-content: center;
+    }
+
+    .film-shots {
+      width: 700px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 500px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 500px;
+      justify-content: center;
+    }
+  }
+
+  .fiml_actors_page-container {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .my-cards {
+      width: 700px;
+      justify-content: center;
+    }
+
+    .film-shots {
+      width: 700px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 500px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 500px;
+      justify-content: center;
+    }
+  }
+
+  .news_page-container{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .my-cards {
+      width: 700px;
+      justify-content: center;
+    }
+
+    .film-shots {
+      width: 700px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 500px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 500px;
+      justify-content: center;
+    }
+  }
+
+  .contact-container{
+    width: 700px;
+  }
+
+
+  footer {
+    width: 100%;
+    height: 490px;
+    .footer-container {
+      width: 800px;
+      justify-content: center;
+      gap: 45px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+
+  header {
+    position: sticky;
+    z-index: 150;
+    nav {
+      gap: 120px !important;
+      width: 785px !important;
+      margin-left: -40px;
+    }
+  }
+
+  footer {
+    .footer-container {
+      width: 600px;
+      .footer-info {
+        gap: 57px;
+      }
+    }
+  }
+}
+
+@media(max-width:800px){
+  header {
+    position: sticky;
+    z-index: 150;
+    nav {
+      gap: 0px !important;
+      width: 675px !important;
+      margin-left: 13px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+
+  header {
+    position: sticky;
+    z-index: 150;
+    nav {
+     
+      margin-left: -185px;
+    }
+  }
+
+  .my-container {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .my-cards {
+      width: 300px;
+      justify-content: center;
+    }
+
+    .film-shots {
+      width: 500px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 400px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 400px;
+      justify-content: center;
+    }
+  
+  }
+
+  .fiml_actors_page-container {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .my-cards {
+      width: 300px;
+      justify-content: center;
+    }
+
+    .categories{ 
+      width:400px;
+      .categori-1{
+        width: 160px;
+        height: 170px;
+      }
+      .categori-2{
+        width: 160px;
+        height: 170px;
+      }
+      .categori-3{
+        width: 160px;
+        height: 170px;
+      }
+      .categori-4{
+        width: 160px;
+        height: 170px;
+      }
+      .categori-5{
+        width: 160px;
+        height: 170px;
+      }
+      .categori-6{
+        width: 160px;
+        height: 170px;
+      }
+    }
+
+    .film-shots {
+      width: 500px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 400px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 400px;
+      justify-content: center;
+    }
+  
+  }
+
+  .news_page-container {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .my-cards {
+      width: 300px;
+      justify-content: center;
+    }
+
+
+    .film-shot-2-title {
+      height: 1290px;
+      width: 290px;
+      justify-content: center;
+      align-items: center;
+      .film-shots-2-new-page{
+        width:260px;
+        justify-content: center;
+      }
+    }
+
+    .categories{ 
+      width:400px;
+      .categori-1{
+        width: 160px;
+        height: 170px;
+      }
+      .categori-2{
+        width: 160px;
+        height: 170px;
+      }
+      .categori-3{
+        width: 160px;
+        height: 170px;
+      }
+      .categori-4{
+        width: 160px;
+        height: 170px;
+      }
+      .categori-5{
+        width: 160px;
+        height: 170px;
+      }
+      .categori-6{
+        width: 160px;
+        height: 170px;
+      }
+    }
+
+    .film-shots {
+      width: 500px;
+      justify-content: center;
+    }
+
+    .film-cards {
+      width: 400px;
+      justify-content: center;
+    }
+
+    .film-shots-2 {
+      width: 400px;
+      justify-content: center;
+    }
+  
+  }
+
+  .contact-container{ 
+    width: 300px;
+    .film-shot-2-title {
+      height: 1290px;
+      width: 290px;
+      justify-content: center;
+      align-items: center;
+      .film-shots-2-new-page{
+        width:260px;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 685px) {
+
+  header {
+    position: sticky;
+    z-index: 150;
+    nav {
+      width: 185px !important;
+      margin-left: 68px;
+      ul{
+        a{
+          display: none;
+        }
+        .burger-bar{
+          display: inline;
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+  .news_page-container{
+  .film-shot-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    width:300px;
+    .my-div-2 {
+      margin-top: 40px;
+      width: 300px;
+      height: 300px;
+      border-radius: 20px;
+      border: 1px solid #a3a3a3;
+      #carouselExampleAutoplaying {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+  
+        button {
+          width: 56px;
+          height: 56px;
+          background-color: #309d6f;
+          border-radius: 50%;
+          margin-top: 160px;
+        }
+        .carousel-inner {
+          width: 300px;
+          height: 300px;
+          border-radius: 20px;
+          .carousel-item {
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            .d-md-block {
+              width: 300px;
+              height: 300px;
+              border-radius: 20px;
+            }
+  
+            .w-100 {
+              height: 300px;
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+
+  .contact-container{
+    .user-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:300px;
+      gap:40px;
+
+      iframe{
+        width:265px;
+        height:280px;
+      }
+
+      .user-form {
+        width:300px;
+        form{
+          width:300px;
+
+          h2{
+            width:250px;
+          }
+           .user-inputs {
+
+            .user-name{
+              width: 257px;
+              input{
+                width:195px;
+              }
+            }
+
+            .user-email{
+              width: 257px;
+              input{
+                width:195px;
+              }
+            }
+
+            textarea{
+              width:257px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media(max-width:600px){
+  
+  footer {
+    height:700px;
+    .footer-container {
+      width: 500px;
+      .footer-info {
+        width:500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media(max-width:550px){
+
+  .my-s-1{ 
+    #carouselExampleAutoplaying {
+      .carousel-inner{
+        height:300px;
+      }
+    }
+  }
+
+
+  .my-container{
+    .film-shots{
+      width:300px;
+      .shot-1{
+        width:300px;
+        gap:55px;
+      }
+      .shot-2{
+        width:300px;
+        gap:55px;
+      }
+    }
+  }
+
+  .fiml_actors_page-container {
+    .film-shots{
+      width:300px;
+      .shot-1{
+        width:300px;
+        gap:55px;
+      }
+      .shot-2{
+        width:300px;
+        gap:55px !important;
+      }
+    }
+  }
+
+  .news_page-container {
+    .film-shots{
+      width:300px;
+      .shot-1{
+        width:300px;
+        gap:55px;
+      }
+      .shot-2{
+        width:300px;
+        gap:55px !important;
+      }
+    }
+  }
+   
+  footer {
+    .footer-container {
+      width:380px;
+      .footer-info {
+        width:380px;
+      }
+    }
+  }
+}
+
+@media(max-width:450px){
+  .my-container{ 
+    .film-shots-2 {
+      width:300px;
+      .shot-3{
+        width: 300px;
+        img{
+          margin-left: 210px;
+        }
+      } 
+      .shot-4{
+        width: 300px;
+        img{
+          margin-left: 210px;
+        }
+      } 
+      .shot-5{
+        width: 300px;
+        img{
+          margin-left: 210px;
+        }
+      } 
+    }
+
+    .film-cards {
+      width:300px;
+      h2{
+        width:300px;
+      }
+      h3{
+        width:300px;
+      }
+      h4{
+        width:300px;
+      }
+
+      .film-card{
+        width:300px;
+
+        .film-card-info {
+          width:300px;
+          a{
+            button{
+              margin-left:25px;
+            }
+          }
+
+          .film-card-text {
+            p{
+              width:271px;
+              margin-left:20px;
+            }
+          }
+        }
+      }
+    }
+
+   
+  }
+
+ .fiml_actors_page-container{ 
+  .film-shots-2 {
+    width:300px;
+    .shot-3{
+      width: 300px;
+      img{
+        margin-left: 210px;
+      }
+    } 
+    .shot-4{
+      width: 300px;
+      img{
+        margin-left: 210px;
+      }
+    } 
+    .shot-5{
+      width: 300px;
+      img{
+        margin-left: 210px;
+      }
+    } 
+  }
+
+  .film-cards {
+    width:300px;
+    h2{
+      width:300px !important;
+    }
+    h3{
+      width:300px !important;
+    }
+    h4{
+      width:300px !important;
+    }
+    h5{
+      width:300px !important;
+    }
+    h6{
+      width:300px !important;
+    }
+
+    .ford_vs_ferrari{
+      width:300px !important;
+    }
+
+    .film-catch-me-if-you-can-image{
+      width:300px !important;
+    }
+
+    .film-card{
+      width:300px;
+
+      .film-card-info {
+        width:300px;
+        a{
+          button{
+            margin-left:25px;
+          }
+        }
+
+        .film-card-text {
+          p{
+            width:265px !important;
+            margin-left:20px;
+          }
+
+        }
+      }
+    }
+  }
+
+ 
+}
+
+.news_page-container{ 
+  .film-shots-2 {
+    width:300px;
+    .shot-3{
+      width: 300px;
+      img{
+        margin-left: 210px;
+      }
+    } 
+    .shot-4{
+      width: 300px;
+      img{
+        margin-left: 210px;
+      }
+    } 
+    .shot-5{
+      width: 300px;
+      img{
+        margin-left: 210px;
+      }
+    } 
+  }
+
+  .film-cards {
+    width:300px;
+    h2{
+      width:300px !important;
+    }
+    h3{
+      width:300px !important;
+    }
+    h4{
+      width:300px !important;
+    }
+    h5{
+      width:300px !important;
+    }
+    h6{
+      width:300px !important;
+    }
+
+    .Deadpool-worverine{
+     width:300px !important;
+    }
+
+    .ford_vs_ferrari{
+      width:300px !important;
+    }
+
+    .film-catch-me-if-you-can-image{
+      width:300px !important;
+    }
+
+    .Despicable-Me-4 {
+      width:300px !important;
+    }
+
+    .bad-boys{
+      width:300px !important;
+    }
+
+    .inside-out-2{
+      width:300px !important;
+    }
+
+    .KPA{
+      width:300px !important;
+    }
+
+    .the-darfield-movie{
+      width:300px !important;
+    }
+
+
+
+
+
+
+    .film-card{
+      width:300px;
+
+      .film-card-info {
+        width:300px;
+        a{
+          button{
+            margin-left:25px;
+          }
+        }
+
+        .film-card-text {
+          p{
+            width:265px !important;
+            margin-left:20px;
+          }
+
+        }
+      }
+    }
+  }
+
+ 
+}
+}
+
+@media(max-width:440px){ 
+  footer {
+    .footer-container {
+      width:295px;
+      .footer-info {
+        width:295px;
+
+        }
+      }
+    }
+
+    .fiml_actors_page-container {
+      .categories{
+        width: 165px;
+      }
+    }
+
+    .news_page-container{
+      .categories{
+        width: 165px;
+      }
+    }
 }
